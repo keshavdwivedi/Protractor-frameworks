@@ -1,0 +1,59 @@
+{
+    "Applocators":
+    {
+        "Homepage":
+        {
+            "homepageheadingcss":"div[class='box mainhdr']>strong",
+            "customerloginbtntxt":"Customer Login",
+            "managerloginbtntxt":"Bank Manager Login",
+            "buttonscss":"div[class='borderM box padT20']>div>button"
+        },
+
+        "managerdetails":
+        {
+           "Addcustomerbuttontxt":"Add Customer",
+           "Openaccountbuttontxt":"Open Account",
+           "Customersbuttontxt":"Customers",
+           "managerbuttoncss":"div.center>button"
+        },
+
+        "createcustomer":
+        {
+            "Firstnamemodel":"fName",
+            "lastnamemodel":"lName",
+            "postalcodemodel":"postCd"
+        },
+
+        "openAccount":
+        {
+            "CustomerDropdownmodel":"custId",
+            "customerdrpoptions":"#userSelect>option",
+            "currencyDropdownmodel":"currency",
+            "currencydrpoptions":"#currency>option",
+            "processbtntxt":"Process"
+        },
+
+        "customerlogin":{
+            "choosecustomercss":"#userSelect",
+            "loginbtntxt":"Login",
+            "customerdropoptioncss":"#userSelect>option"
+        },
+
+        "Customeroperations":{
+            "Transactionbtntxt":"Transactions",
+            "Withdrawbtntxt":"Withdrawl",
+            "Depositbtntxt":"Deposit",
+            "amountmodel":"amount",
+            "balancecss":"strong[class='ng-binding']",
+            "successmessagecss":"span[class='error ng-binding']",
+            "allbuttonscss":"div[class='center']>button",
+            "Logoutbtntxt":"Logout"
+        },
+
+        "Deletecustomer":{
+            "CustomerRepeater":"cust in Customers | orderBy:sortType:sortReverse | filter:searchCustomer"
+        }
+
+
+    }
+}

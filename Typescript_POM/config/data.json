@@ -1,0 +1,39 @@
+{
+    "Appdata":
+    {
+       "Homepage":
+       {
+         "homepageurl":"http://www.way2automation.com/angularjs-protractor/banking/#/login",
+         "homepagetitle":"Protractor practice website - Banking App",
+         "homepageheading":"XYZ Bank"
+       },
+       
+       "Add_Customer":
+       {
+         "Firstname":"Bruce",
+         "Secondname":"Wayne",
+         "postalcode":"WE1234ER"
+       },
+
+       "OpenAccount":
+       {
+          "customername":"Bruce Wayne",
+          "currency":"Pound"
+       },
+
+       "Customerlogin":
+       {
+         "loggedincustomer":"Bruce Wayne",
+         "Customerloginurl":"http://www.way2automation.com/angularjs-protractor/banking/#/customer"
+       },
+
+       "customeroperation":{
+         "amount":3000,
+         "Customeraccurl":"http://www.way2automation.com/angularjs-protractor/banking/#/account"
+       },
+
+       "Deletecustomer":{
+        "customername":"Bruce"
+       }
+    }
+}
